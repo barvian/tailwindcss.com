@@ -1,12 +1,16 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 const svgToDataUri = require('mini-svg-data-uri')
 const { default: flattenColorPalette } = require('tailwindcss/lib/util/flattenColorPalette')
+const { fluidExtractor, defaultThemeFontSizeInRems, fluidCorePlugins } = require('fluid-tailwind')
 
 module.exports = {
   experimental: {
     optimizeUniversalDefaults: true,
   },
-  content: ['./src/**/*.{js,jsx,mjs,mdx,html}', './remark/**/*.{js,mjs}'],
+  content: {
+    files: ['./src/**/*.{js,jsx,mjs,mdx,html}', './remark/**/*.{js,mjs}'],
+    extract: fluidExtractor()
+  },
   blocklist: [
     '[html:has(&)]:bg-blue-500',
     'list-image-[url(checkmark.png)]',
@@ -14,14 +18,19 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
+    fontSize: defaultThemeFontSizeInRems,
     // `demo-*` screens are used for the "mobile-first" responsive demo
     screens: {
-      sm: '640px',
-      'demo-sm': '720px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-      '2xl': '1536px',
+      xs: '20rem',
+      sm: '40rem',
+      'demo-sm': '45rem',
+      md: '48rem',
+      lg: '64rem',
+      xl: '80rem',
+      '2xl': '96rem',
+    },
+    fluid: {
+
     },
     aspectRatio: {
       auto: 'auto',
@@ -45,6 +54,9 @@ module.exports = {
       16: '16',
     },
     extend: {
+      fontSize: {
+        '4.5xl': ['2.5rem', '2.5rem']
+      },
       colors: {
         code: {
           highlight: 'rgb(125 211 252 / 0.1)',
@@ -277,6 +289,7 @@ module.exports = {
     },
   },
   plugins: [
+    fluidCorePlugins,
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/forms')({ strategy: 'class' }),
