@@ -105,7 +105,7 @@ function ShowcaseIntro({ eyebrow, title, children }) {
     <div className="max-w-8xl mx-auto pt-14 sm:pt-20 md:pt-32 xl:pt-36 mb-20 md:mb-32 px-4 sm:px-6 lg:px-8">
       <p className="text-sm leading-6 font-semibold text-sky-500">{eyebrow}</p>
       {title && (
-        <h2 className="mt-4 max-w-5xl text-slate-900 text-3xl sm:text-6xl tracking-tight font-bold dark:text-white">
+        <h2 className="mt-4 max-w-5xl text-slate-900 ~/sm:~text-3xl/6xl tracking-tight font-bold dark:text-white">
           {title}
         </h2>
       )}

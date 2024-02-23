@@ -25,7 +25,7 @@ import socialCardLarge from '@/img/social-card-large.jpg'
 function Header() {
   return (
     <header className="relative">
-      <div className="px-4 sm:px-6 md:px-8">
+      <div className="~/md:~px-4/8">
         <div
           className={clsx(
             'absolute inset-0 bottom-10 bg-bottom bg-no-repeat bg-slate-50 dark:bg-[#0B1120]',
@@ -40,7 +40,7 @@ function Header() {
             }}
           />
         </div>
-        <div className="relative pt-6 lg:pt-8 flex items-center justify-between text-slate-700 font-semibold text-sm leading-6 dark:text-slate-200">
+        <div className="relative ~/lg:~pt-6/8 flex items-center justify-between text-slate-700 font-semibold text-sm leading-6 dark:text-slate-200">
           <Logo className="w-auto h-5" />
           <div className="flex items-center">
             <SearchButton className="text-slate-500 hover:text-slate-600 w-8 h-8 -my-1 flex items-center justify-center md:hidden dark:hover:text-slate-300">
@@ -87,7 +87,7 @@ function Header() {
           </div>
         </div>
         <div className="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32">
-          <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">
+          <h1 className="text-slate-900 font-extrabold ~/lg:~text-4xl/6xl tracking-tight text-center dark:text-white">
             Rapidly build modern websites without ever leaving your HTML.
           </h1>
           <p className="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400">
@@ -167,7 +167,7 @@ export default function Home() {
       <div className="mb-20 overflow-hidden sm:mb-32 md:mb-40">
         <Header />
         <section className="text-center px-8 mt-20 sm:mt-32 md:mt-40">
-          <h2 className="text-slate-900 text-4xl tracking-tight font-extrabold sm:text-5xl dark:text-white">
+          <h2 className="text-slate-900 ~/lg:~text-4xl/5xl tracking-tight font-extrabold dark:text-white">
             “Best practices” don’t actually work.
           </h2>
           <figure>

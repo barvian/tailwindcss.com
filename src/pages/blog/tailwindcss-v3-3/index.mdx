@@ -353,8 +353,8 @@ For more details, check out the [gradient color stops documentation](/docs/gradi
 We released our [official line-clamp plugin](/blog/multi-line-truncation-with-tailwindcss-line-clamp) just over two years ago and even though it uses a bunch of weird deprecated `-webkit-*` stuff, it works in every browser and it's going to work forever, so we decided to just bake it into the framework itself.
 
 ```html {{ example: { p: 'none' } }}
-<div class="px-4 sm:px-0">
-  <article class="mx-auto max-w-sm bg-white p-8 text-sm leading-6 text-slate-700 shadow-xl dark:bg-slate-800 dark:text-slate-400 sm:text-base sm:leading-7">
+<div class="~/sm:~px-4/0">
+  <article class="mx-auto max-w-sm bg-white p-8 ~/sm:~text-sm/base ~/sm:~leading-6/7 text-slate-700 shadow-xl dark:bg-slate-800 dark:text-slate-400">
     <time datetime="2020-03-16" class="block text-sm leading-6 text-slate-500 dark:text-slate-400">Mar 10, 2020</time>
     <h2 class="mt-2 text-lg font-semibold text-slate-900 dark:text-slate-200">Boost your conversion rate</h2>
     <p class="line-clamp-3 mt-4 text-sm leading-6 text-slate-500 dark:text-slate-400">Nulla dolor velit adipisicing duis excepteur esse in duis nostrud occaecat mollit incididunt deserunt sunt. Ut ut sunt laborum ex occaecat eu tempor labore enim adipisicing minim ad. Est in quis eu dolore occaecat excepteur fugiat dolore nisi aliqua fugiat enim ut cillum. Labore enim duis nostrud eu. Est ut eiusmod consequat irure quis deserunt ex. Enim laboris dolor magna pariatur. Dolor et ad sint voluptate sunt elit mollit officia ad enim sit consectetur enim.</p>
@@ -479,8 +479,8 @@ In the example above we're using a recent release of [Inter](https://github.com/
 Ever wanted to use a picture of a carrot as your list item marker? Well now you can, with the new `list-image-*` utilities.
 
 ```html {{ example: { p: 'none' } }}
-<div class="px-4 sm:px-0">
-  <div class="mx-auto max-w-sm bg-white p-8 text-sm leading-6 text-slate-700 shadow-xl dark:bg-slate-800 dark:text-slate-400 sm:text-base sm:leading-7">
+<div class="~/sm:~px-4/0">
+  <div class="mx-auto max-w-sm bg-white p-8 ~/sm:~text-sm/base ~/sm:~leading-6/7 text-slate-700 shadow-xl dark:bg-slate-800 dark:text-slate-400">
     <ul class="pl-4 text-slate-900 dark:text-slate-200 marker:text-2xl list-image-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBmaWxsPSIjZjk3MzE2Ij48cGF0aCBkPSJNMzQ2LjcgNkMzMzcuNiAxNyAzMjAgNDIuMyAzMjAgNzJjMCA0MCAxNS4zIDU1LjMgNDAgODBzNDAgNDAgODAgNDBjMjkuNyAwIDU1LTE3LjYgNjYtMjYuN2M0LTMuMyA2LTguMiA2LTEzLjNzLTItMTAtNi0xMy4yYy0xMS40LTkuMS0zOC4zLTI2LjgtNzQtMjYuOGMtMzIgMC00MCA4LTQwIDhzOC04IDgtNDBjMC0zNS43LTE3LjctNjIuNi0yNi44LTc0QzM3MCAyIDM2NS4xIDAgMzYwIDBzLTEwIDItMTMuMyA2ek0yNDQuNiAxMzZjLTQwIDAtNzcuMSAxOC4xLTEwMS43IDQ4LjJsNjAuNSA2MC41YzYuMiA2LjIgNi4yIDE2LjQgMCAyMi42cy0xNi40IDYuMi0yMi42IDBsLTU1LjMtNTUuMyAwIC4xTDIuMiA0NzcuOUMtMiA0ODctLjEgNDk3LjggNyA1MDVzMTcuOSA5IDI3LjEgNC44bDEzNC43LTYyLjQtNTIuMS01Mi4xYy02LjItNi4yLTYuMi0xNi40IDAtMjIuNnMxNi40LTYuMiAyMi42IDBMMTk5LjcgNDMzbDEwMC4yLTQ2LjRjNDYuNC0yMS41IDc2LjItNjggNzYuMi0xMTkuMkMzNzYgMTk0LjggMzE3LjIgMTM2IDI0NC42IDEzNnoiLz48L3N2Zz4=')]">
       <li class="pl-2">5 cups chopped Porcini mushrooms</li>
       <li class="pl-2">1/2 cup of olive oil</li>

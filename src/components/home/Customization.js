@@ -88,7 +88,7 @@ export function Customization() {
 
   return (
     <section id="customization">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+      <div className="max-w-7xl mx-auto ~/md:~px-4/8">
         <IconContainer
           className="dark:bg-pink-500 dark:highlight-white/30"
           light={require('@/img/icons/home/customization.png').default.src}
@@ -154,7 +154,7 @@ export function Customization() {
                               </motion.dd>
                             </AnimatePresence>
                           </div>
-                          <div className="mt-4 col-span-2 text-4xl sm:text-5xl lg:text-4xl xl:text-5xl text-slate-900 dark:text-slate-200">
+                          <div className="mt-4 col-span-2 ~/sm:~text-4xl/5xl lg:~lg/xl:~text-4xl/5xl text-slate-900 dark:text-slate-200">
                             <dt className="sr-only">Sample</dt>
                             <AnimatePresence initial={false} exitBeforeEnter>
                               <motion.dd

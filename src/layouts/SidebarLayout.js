@@ -520,7 +520,7 @@ export function SidebarLayout({
   return (
     <SidebarContext.Provider value={{ nav, navIsOpen, setNavIsOpen }}>
       <Wrapper allowOverflow={allowOverflow}>
-        <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-8">
+        <div className="max-w-8xl mx-auto ~/md:~px-4/8">
           <div className="hidden lg:block fixed z-20 inset-0 top-[3.8125rem] left-[max(0px,calc(50%-45rem))] right-auto w-[19rem] pb-10 pl-8 pr-6 overflow-y-auto">
             <Nav nav={nav} fallbackHref={fallbackHref}>
               {sidebar}

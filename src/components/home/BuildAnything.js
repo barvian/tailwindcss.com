@@ -241,7 +241,7 @@ export function BuildAnything() {
 
   return (
     <section id="build-anything">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+      <div className="max-w-7xl mx-auto ~/md:~px-4/8">
         <IconContainer
           className="dark:bg-pink-500 dark:highlight-white/30"
           light={require('@/img/icons/home/build-anything.png').default.src}

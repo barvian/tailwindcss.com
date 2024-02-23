@@ -32,7 +32,7 @@ export function BlogPostLayout({ children, meta }) {
           </Link>
         </div>
       </div>
-      <div className="px-4 sm:px-6 md:px-8">
+      <div className="~/md:~px-4/8">
         <div className="max-w-3xl mx-auto">
           <main>
             <article className="relative pt-10">

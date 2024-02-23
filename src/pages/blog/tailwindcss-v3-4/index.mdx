@@ -259,7 +259,7 @@ After using it for a few weeks though I can say decisively that even with the lo
 How much time have you spent fiddling with `max-width` or inserting responsive line breaks to try and make those little section headings wrap nicely on your landing pages? Well now you can spend zero time on it, because the browser can do it for you with `text-wrap: balance`:
 
 ```html {{ example: { p: 'none' } }}
-<div class="px-4 sm:px-0">
+<div class="~/sm:~px-4/0">
   <div class="grid gap-4 mx-auto max-w-sm bg-white shadow-xl p-8 text-slate-700 dark:bg-slate-800 dark:text-slate-400">
     <h3 class="text-balance text-xl dark:text-white font-semibold text-slate-900">Beloved Manhattan soup stand closes<h3>
     <p class="text-sm/6">New Yorkers are facing the winter chill with less warmth this year as the city's most revered soup stand unexpectedly shutters, following a series of events that have left the community puzzled.</p>
@@ -277,7 +277,7 @@ How much time have you spent fiddling with `max-width` or inserting responsive l
 We've also added `text-pretty` which tries to avoid orphaned words at the end of paragraphs using `text-wrap: pretty`:
 
 ```html {{ example: { p: 'none' } }}
-<div class="px-4 sm:px-0">
+<div class="~/sm:~px-4/0">
   <div class="grid gap-4 mx-auto max-w-sm bg-white shadow-xl p-8 text-slate-700 dark:bg-slate-800 dark:text-slate-400 text-pretty">
     <h3 class="text-xl dark:text-white font-semibold text-slate-900">Beloved Manhattan soup stand closes<h3>
     <p class="text-sm/6">New Yorkers are facing the winter chill with less warmth this year as the city's most revered soup stand unexpectedly shutters, following a series of events that have left the community puzzled.</p>

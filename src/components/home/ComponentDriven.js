@@ -551,7 +551,7 @@ export function ComponentDriven() {
 
   return (
     <section id="component-driven">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+      <div className="max-w-7xl mx-auto ~/md:~px-4/8">
         <IconContainer
           className="dark:bg-sky-500 dark:highlight-white/20"
           light={require('@/img/icons/home/component-driven.png').default.src}

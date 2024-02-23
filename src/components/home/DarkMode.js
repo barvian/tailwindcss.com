@@ -106,7 +106,7 @@ export function DarkMode() {
 
   return (
     <section id="dark-mode">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+      <div className="max-w-7xl mx-auto ~/md:~px-4/8">
         <IconContainer
           className="dark:bg-slate-600 dark:highlight-white/20"
           light={require('@/img/icons/home/dark-mode.png').default.src}

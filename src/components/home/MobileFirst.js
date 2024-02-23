@@ -266,7 +266,7 @@ export function MobileFirst() {
 
   return (
     <section id="mobile-first" className="overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+      <div className="max-w-7xl mx-auto ~/md:~px-4/8">
         <IconContainer
           className="dark:bg-indigo-500 dark:highlight-white/20"
           light={require('@/img/icons/home/mobile-first.png').default.src}

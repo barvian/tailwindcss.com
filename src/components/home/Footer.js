@@ -21,7 +21,7 @@ const footerNav = [
 export function Footer() {
   return (
     <footer className="pb-16 text-sm leading-6">
-      <div className="max-w-7xl mx-auto divide-y divide-slate-200 px-4 sm:px-6 md:px-8 dark:divide-slate-700">
+      <div className="max-w-7xl mx-auto divide-y divide-slate-200 ~/md:~px-4/8 dark:divide-slate-700">
         <div className="flex">
           {footerNav.map((sections) => (
             <div

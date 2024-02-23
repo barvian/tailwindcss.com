@@ -87,7 +87,7 @@ export function StateVariants() {
 
   return (
     <section id="state-variants">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+      <div className="max-w-7xl mx-auto ~/md:~px-4/8">
         <IconContainer
           className="dark:bg-blue-500 dark:highlight-white/20"
           light={require('@/img/icons/home/state-variants.png').default.src}
@@ -114,7 +114,7 @@ export function StateVariants() {
         left={
           <div className="relative z-10 rounded-xl bg-white shadow-xl ring-1 ring-slate-900/5 overflow-hidden my-auto xl:mt-18 dark:bg-slate-800">
             <section>
-              <header className="rounded-t-xl space-y-4 p-4 sm:px-8 sm:py-6 lg:p-4 xl:px-8 xl:py-6 dark:highlight-white/10">
+              <header className="rounded-t-xl space-y-4 ~/sm:~px-4/8 ~/sm:~py-4/6 lg:~lg/xl:~px-4/8 lg:~lg/xl:~py-4/6 dark:highlight-white/10">
                 <div className="flex items-center justify-between">
                   <h2 className="font-semibold text-slate-900 dark:text-white">Projects</h2>
                   <div
@@ -160,7 +160,7 @@ export function StateVariants() {
                   />
                 </div>
               </header>
-              <ul className="bg-slate-50 p-4 sm:px-8 sm:pt-6 sm:pb-8 lg:p-4 xl:px-8 xl:pt-6 xl:pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-4 text-sm leading-6 dark:bg-slate-900/40 dark:ring-1 dark:ring-white/5">
+              <ul className="bg-slate-50 ~/sm:~px-4/8 ~/sm:~pt-4/6 ~/sm:~pb-4/8 lg:~lg/xl:~px-4/8 lg:~lg/xl:~pt-6/8 lg:~lg/xl:~pb-4/8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-4 text-sm leading-6 dark:bg-slate-900/40 dark:ring-1 dark:ring-white/5">
                 {projects.map((project, i, a) => (
                   <li
                     key={i}

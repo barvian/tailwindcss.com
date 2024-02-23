@@ -47,6 +47,9 @@ const fallbackGetStaticProps = {}
 export default {
   swcMinify: true,
   pageExtensions: ['js', 'jsx', 'mdx'],
+  images: {
+    unoptimized: true
+  },
   experimental: {
     esmExternals: false,
     scrollRestoration: true,

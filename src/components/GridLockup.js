@@ -59,7 +59,7 @@ GridLockup.Container = function Grid({ beams = 0, className, overhang = 'sm', ch
 
 GridLockup.Grid = function Inner({ left, right, leftProps = {}, rightProps = {} }) {
   return right ? (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:grid lg:grid-cols-12 lg:gap-8">
+    <div className="max-w-7xl mx-auto ~/md:~px-4/8 lg:grid lg:grid-cols-12 lg:gap-8">
       <div
         {...leftProps}
         className={clsx('lg:col-span-5 xl:col-span-6 flex flex-col', leftProps.className)}

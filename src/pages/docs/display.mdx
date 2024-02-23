@@ -16,7 +16,7 @@ export const classes = { utilities }
 Use `inline`, `inline-block`, and `block` to control the flow of text and elements.
 
 ```html {{ example: { p: 'none' } }}
-<div class="mx-auto max-w-xs bg-white shadow-xl p-4 text-slate-500 text-sm leading-6 sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-400">
+<div class="mx-auto max-w-xs bg-white shadow-xl p-4 text-slate-500 ~/sm:~text-sm/base ~/sm:~leading-6/7 dark:bg-slate-800 dark:text-slate-400">
   When controlling the flow of text, using the CSS property <span class="inline bg-sky-100 font-bold text-sm text-slate-900 font-mono rounded dark:bg-slate-600 dark:text-slate-200">display: inline</span>
   will cause the text inside the element to wrap normally.
   <br /><br />
@@ -49,7 +49,7 @@ Use `inline`, `inline-block`, and `block` to control the flow of text and elemen
 Use `flow-root` to create a block-level element with its own [block formatting context](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context).
 
 ```html {{ example: { p: 'none' } }}
-<div class="mx-auto max-w-xs bg-white shadow-xl p-4 text-slate-500 text-sm leading-6 sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-400">
+<div class="mx-auto max-w-xs bg-white shadow-xl p-4 text-slate-500 ~/sm:~text-sm/base ~/sm:~leading-6/7 dark:bg-slate-800 dark:text-slate-400">
   <div class="flow-root bg-stripes-purple mb-0.5">
     <div class="my-4 bg-white dark:bg-slate-800">Well, let me tell you something, funny boy. Y'know that little stamp, the one that says "New York Public Library"? Well that may not mean anything to you, but that means a lot to me. One whole hell of a lot.</div>
   </div>
@@ -101,7 +101,7 @@ Use `flex` to create a block-level flex container.
 Use `inline-flex` to create an inline flex container that flows with text.
 
 ```html {{ example: { p: 'none' } }}
-<p class="mx-auto max-w-lg bg-white shadow-xl p-4 text-slate-500 text-sm leading-6 sm:text-base sm:leading-7 dark:bg-slate-800 dark:text-slate-400">
+<p class="mx-auto max-w-lg bg-white shadow-xl p-4 text-slate-500 ~/sm:~text-sm/base ~/sm:~leading-6/7 dark:bg-slate-800 dark:text-slate-400">
   Today I spent most of the day researching ways to take advantage of the fact that bottles can be returned for 10 cents in Michigan, but only 5 cents here. <span class="ml-1 inline-flex items-baseline"><img src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=80" alt="" class="self-center w-5 h-5 rounded-full mr-1" /><span class="font-medium text-slate-900 dark:text-slate-200">Kramer</span></span> keeps telling me there is no way to make it work, that he has run the numbers on every possible approach, but I just have to believe there's a way to make it work, there's simply too much opportunity here.
 </p>
 ```

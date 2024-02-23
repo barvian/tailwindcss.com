@@ -179,9 +179,9 @@ export default function Showcase() {
           priority
           unoptimized
         />
-        <div className="relative max-w-3xl px-4 sm:px-6 lg:px-8 mx-auto sm:text-center">
+        <div className="relative max-w-3xl ~/lg:~px-4/8 mx-auto sm:text-center">
           <h1 className="text-sm leading-6 font-semibold text-sky-500">Showcase</h1>
-          <p className="mt-6 text-[2.5rem] leading-none sm:text-6xl tracking-tight font-bold text-slate-900 dark:text-white">
+          <p className="mt-6 ~/sm:~text-4xl/6xl leading-none tracking-tight font-bold text-slate-900 dark:text-white">
             You can build anything with Tailwind CSS.
           </p>
           <p className="mt-4 text-lg text-slate-600 dark:text-slate-400">

@@ -34,7 +34,7 @@ export function Caption({ className = '', ...props }) {
 export function BigText({ className = '', ...props }) {
   return (
     <p
-      className={`mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 ${className}`}
+      className={`mt-4 ~xs/sm:~text-3xl/4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 ${className}`}
       {...props}
     />
   )
